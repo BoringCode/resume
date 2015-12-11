@@ -65,7 +65,7 @@ body > header {
 	padding: 10px 5%;
 	background-color: #EFEEEE;
 	font-family: 'Franchise', serif;
-	border-bottom: 3px solid #D01D1A;
+	border-bottom: 3px solid #16577D;
 	margin-bottom: 20px;
 	position: relative;
 }
@@ -106,10 +106,11 @@ section, footer {
 	font-size: 14px;
 }
 	section header {
-		border-bottom: 1px solid #D01D1A;
+		border-bottom: 1px solid #16577D;
 		padding-bottom: 2px;
 	}
 	   section header h2 {
+	   		color: #16577D;
 	       font-size: 22px;
 	       font-family: 'Bitter', serif;
 	   }
@@ -131,7 +132,7 @@ section, footer {
 		line-height: 24px;
 	}
 	footer em {
-		border-top: 1px solid #D01D1A;
+		border-top: 1px solid #16577D;
 		display: block;
 		padding-top: 10px;
 		margin-top: 10px;
