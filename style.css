@@ -12,6 +12,9 @@ html {
 	width: 100%;
 	min-height: 100%;
 	background-color: #888787;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 body {
@@ -21,7 +24,7 @@ body {
 	width: 840px;
 	margin: auto;
 	box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.4);
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 	color: #333333;
 }
 
@@ -66,7 +69,7 @@ body > header {
 	background-color: #EFEEEE;
 	font-family: 'Franchise', serif;
 	border-bottom: 3px solid #16577D;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	position: relative;
 }
 	body > header h1 {
@@ -91,6 +94,7 @@ body > header {
 		font-family: 'Source Sans Pro', sans-serif;
 		text-align: right;
 		padding: 15px 0;
+		line-height: 1.25em;
 	}
 		body > header .info a {
             display: block;
@@ -99,56 +103,68 @@ body > header {
 				margin-bottom: 2px;
 		}
 
+.code {
+	display: inline-block;
+	padding: 0 0.2em;
+	border-radius: 3px;
+	background: #EFEEEE;
+}
+
 section, footer {
 	width: 100%;
 	padding: 0 5%;
-	margin-bottom: 15px;
-	font-size: 14px;
+	font-size: 13px;
+	line-height: 1.5em;
 }
 	section header {
 		border-bottom: 1px solid #16577D;
 		padding-bottom: 2px;
+		margin-bottom: 8px;
 	}
 	   section header h2 {
 	   		color: #16577D;
-	       font-size: 22px;
+	       font-size: 20px;
+	       line-height: 1.2em;
 	       font-family: 'Bitter', serif;
 	   }
 	section ul li {
 		list-style: none;
-		margin-top: 10px;
-		margin-left: 20px;
+		margin-top: 8px;
+		margin-left: 15px;
+		margin-right: 15px;
 		line-height: 18px;
-	}
-	section ul.list {
-		margin-top: 10px;
 	}
 		section ul.list li {
 			list-style: disc;
 			margin-top: 0px;
+			margin-left: 30px;
 		}
+	section strong {
+		margin-left: 10px;
+	}
 	section ul h2 {
 		font-size: inherit;
-		line-height: 24px;
+		line-height: 18px;
 	}
 	footer em {
 		border-top: 1px solid #16577D;
 		display: block;
-		padding-top: 10px;
-		margin-top: 10px;
+		padding-top: 8px;
+		margin-top: -2px;
+		line-height: 1em;
 		text-align: center;
 	}
 	footer p {
 		text-align: center;
 		font-size: 12px;
-		margin-top: 4px;
+		margin-top: 0px;
 	}
 	footer a {
 		text-decoration: none;
-		color: #666;
+		color: #16577D;
 	}
 	section ul em {
-		line-height: 24px;
+		line-height: 18px;
 		display: block;
 	}
 		section em span {
@@ -156,13 +172,16 @@ section, footer {
 			float: right;
 		}
 	section a {
-		color: #333333;
+		color: #16577D;
 		text-decoration: none;
 	}
 	section > p {
-		margin: 10px 0;
-		margin-left: 20px;
+		margin: 4px 15px;
+		margin-bottom: 10px;
 	}
+footer {
+	margin-top: 10px;
+}
 .experience .list {
-	margin-top: 0;
+	margin-top: 4px;
 }
