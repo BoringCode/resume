@@ -8,6 +8,12 @@
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
+@media print {
+	html {
+		margin-top: -0.5em;
+	}
+}
+
 html {
 	width: 100%;
 	min-height: 100%;
