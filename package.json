@@ -1,0 +1,17 @@
+{
+  "name": "jsonresume-bradley-rosenfeld",
+  "version": "0.0.1",
+  "description": "A theme for JSON Resume",
+  "author": "Bradley Rosenfeld",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/BoringCode/resume"
+  },
+  "scripts": {
+    "start": "resume serve"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  },
+  "license": "MIT"
+}

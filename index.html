@@ -1,9 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>Resumé - Bradley Rosenfeld</title>
-		<link href="style.css" rel="stylesheet"/>
-		<link rel='stylesheet' href='print.css' media="print" />
+	<head>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+		<title>Bradley Rosenfeld</title>
+		<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Bitter:400italic,700);
+@font-face {
+	font-family: 'Franchise';
+	font-weight: bold;
+	font-weight: 700;
+	src: local('Franchise'), url(fonts/franchise-bold-webfont.ttf) format('ttf'), url(fonts/franchise-bold-webfont.woff) format('woff');
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+@media print {
+	html {
+		margin-top: -0.5em;
+	}
+}
+
+html {
+	width: 100%;
+	min-height: 100%;
+	background-color: #888787;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+body {
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	min-height: 100%;
+	width: 840px;
+	margin: auto;
+	box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.4);
+	padding-bottom: 15px;
+	color: #333333;
+}
+
+.control-bar {
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #16577D;
+	color: white;
+}
+	.control-bar a {
+		color: white;
+		text-decoration: none;
+		border: 1px solid white;
+		padding: 5px;
+		margin: 5px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+	}
+
+.row {
+	display: block;
+}
+	.col {
+		display: inline-block;
+		vertical-align: top;
+		margin-right: -0.25em;
+	}
+		.col-2-1 {
+			width: 50%;
+		}
+		.col:first-child {
+			padding-right: 2.5%;
+		}
+		.col:last-child {
+			padding-left: 2.5%;
+		}
+/*page header*/
+body > header {
+	width: 100%;
+	padding: 10px 3%;
+	background-color: #EFEEEE;
+	font-family: 'Franchise', serif;
+	border-bottom: 3px solid #16577D;
+	margin-bottom: 10px;
+	position: relative;
+}
+	body > header h1 {
+		color: #16577D;
+		font-size: 49px;
+		line-height: 40px;
+	}
+	body > header h2 {
+		font-size: 18px;
+		line-height: 18px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+		font-family: 'Bitter';
+		font-style: italic;
+		font-weight: 400;
+	}
+	body > header .info {
+		position: absolute;
+		top: 0;
+		right: 5%;
+		font-size: 15px;
+		font-family: 'Source Sans Pro', sans-serif;
+		text-align: right;
+		padding: 12px 0;
+		line-height: 1.25em;
+	}
+		body > header .info a {
+            display: block;
+				color: inherit;
+				text-decoration: none;
+				margin-bottom: 2px;
+		}
+
+.code {
+	display: inline-block;
+	padding: 0 0.2em;
+	border-radius: 3px;
+	background: #EFEEEE;
+}
+
+section, footer {
+	width: 100%;
+	padding: 0 3%;
+	margin-top: 0.5em;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+	section header {
+		border-bottom: 1px solid #16577D;
+		padding-bottom: 2px;
+		margin-bottom: 8px;
+	}
+	   section header h2 {
+	   		color: #16577D;
+			font-size: 1.2em;
+			line-height: 1.2em;
+			font-family: 'Bitter', serif;
+	   }
+	section ul li {
+		list-style: none;
+		margin: 0.6em 15px;
+		line-height: 1.3em;
+	}
+		section ul.list li {
+			list-style: disc;
+			margin: 0;
+			margin-left: 30px;
+		}
+		section ul.list {
+			margin-bottom: 0.6em;
+		}
+	section strong {
+		margin-left: 10px;
+	}
+	section ul h2 {
+		font-size: inherit;
+		line-height: 18px;
+	}
+	footer em {
+		border-top: 1px solid #16577D;
+		display: block;
+		padding-top: 8px;
+		margin-top: -2px;
+		line-height: 1em;
+		text-align: center;
+	}
+	footer p {
+		text-align: center;
+		font-size: 0.9em;
+		margin-top: 0px;
+	}
+	footer a {
+		text-decoration: none;
+		color: #16577D;
+	}
+	section ul em {
+		line-height: 18px;
+		display: block;
+	}
+		section em span {
+			font-style: normal;
+			float: right;
+		}
+	section a {
+		color: #16577D;
+		text-decoration: none;
+	}
+	section > p {
+		margin: 4px 15px;
+		margin-bottom: 10px;
+	}
+footer {
+	margin-top: 10px;
+}
+.experience .list {
+	margin-top: 4px;
+}</style>
+		<style media="print">html {
+	background: none;
+}
+body {
+	width: 100%;
+	box-shadow: none;
+	padding-bottom: 0;
+	min-height: auto;
+}
+
+.control-bar, .add, .delete {
+	display: none;
+}</style>
 	</head>
 	<body>
 		<div class="control-bar">
@@ -11,9 +219,9 @@
 		</div>
 		<header>
 			<h1>Bradley Rosenfeld</h1>
-			<h2>Professional Web Developer</h2>
+			<h2>Web Security Analyst</h2>
 			<div class="info">
-				<a href="tel:2246507624">(224) 650-7624</a>
+				<a href="tel:(224) 650-7624">(224) 650-7624</a>
 				<a href="http://bradleyrosenfeld.com">http://bradleyrosenfeld.com</a>
 				<a href="mailto:thatguy@bradleyrosenfeld.com">thatguy@bradleyrosenfeld.com</a>
 			</div>
@@ -22,7 +230,7 @@
 			<header>
 				<h2>Overview</h2>
 			</header>
-			<p>I am a developer who is passionate about semantics, ecstatic about user experiences, and wistful for the <span class="code">&lt;blink&gt;</span> tag. My unique background of traditional computer science and graphic design enables me to solve visual problems with efficient code. I have over 5 years of experience in designing and developing responsive user interfaces for screens of any size. My objective is to work for a company that is excited about building highly usable, fast, responsive web applications.</p>
+			<p>I am a developer who is passionate about information security.</p>
 		</section>
 		<div class="row">
 			<section class="education col col-2-1">
@@ -31,16 +239,25 @@
 				</header>
 				<ul>
 					<li>
-						<h2>Taylor University, Upland Indiana</h2>
-						<a href="http://taylor.edu">http://taylor.edu</a>
-						<em>August 2012 &#x2013; May 2016 (expected)</em>
-						<p>B.S. Computer Science New Media Systems, 3.76/4.0 GPA</p>
+						<h2>Taylor University</h2>
+							<a href="http://taylor.edu">http://taylor.edu</a>
+						<em>August, 2012 &#x2013; May 2016</em>
+						<p>B.S. Computer Science - New Media / Systems, 3.76/4.0 GPA</p>
+					</li>
+				</ul>
+				<header>
+					<h2>Awards</h2>
+				</header>
+				<ul>
+					<li>
+						<h4>Outstanding Peformance 2015 NSA CyberSpring Competition</h4>
+						<em>National Security Agency, 2015-11-01</em>
+						<p>Placed top 30 out of 160+ competitors in a live CTF competition.</p>
 					</li>
 					<li>
-						<h2>BMK Academy</h2>
-						<p>High School</p>
-						<em>August 2008 &#x2013; May 2012</em>
-						<p>College Prep, 3.81/4.0 GPA</p>
+						<h4>1st Place BVU CTF 2015</h4>
+						<em>Buena Vista University, 2015-04-01</em>
+						<p>Worked with 3 other Taylor students in a live CTF competition involving attack/defense of 5 different services.</p>
 					</li>
 				</ul>
 			</section>
@@ -48,23 +265,28 @@
 				<header>
 					<h2>Skills</h2>
 				</header>
-				<strong>Languages</strong>
-				<ul class="list">
-					<li>HTML, CSS, Sass, LESS, JavaScript</li>
-					<li>Angular.js, Node.js, jQuery</li>
-					<li>PHP, Python, Ruby</li>
-					<li>C, C++, Java</li>
-				</ul>
-				<strong>Tools</strong>
-				<ul class="list">
-					<li>Git, Subversion</li>
-					<li>Grunt, NPM, Bower, Unix tools</li>
-					<li>Adobe Creative Cloud (Photoshop, Illustrator, Edge, After Effects)</li>
-				</ul>
-				<strong>Frameworks</strong>
-				<ul class="list">
-					<li>WordPress, Express, Django, Ruby on Rails</li>
-				</ul>
+					<strong>Languages</strong>
+					<ul class="list">
+						<li>C, C++</li>
+						<li>PHP, Python, Ruby</li>
+						<li>HTML, CSS, Sass, LESS, JavaScript</li>
+					</ul>
+					<strong>Tools</strong>
+					<ul class="list">
+						<li>Git, Subversion</li>
+						<li>Grunt, NPM, Bower, Unix Tools</li>
+						<li>Angular.js, Node.js, jQuery</li>
+					</ul>
+					<strong>Techniques</strong>
+					<ul class="list">
+						<li>Penetration Testing, reverse engineering</li>
+						<li>Debugging, Q/A Testing</li>
+						<li>Agile, scrum</li>
+					</ul>
+				<header>
+					<h2>Projects</h2>
+				</header>
+				<p>Visit GitHub <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> and my portfolio <a href="http://bradleyrosenfeld.com/portfolio/">(http://bradleyrosenfeld.com/portfolio/)</a></p>
 			</section>
 		</div>
 		<section class="experience">
@@ -74,30 +296,30 @@
 			<ul>
 				<li>
 					<h2>Sells Group</h2>
-					<a href="http://sellsgroup.com/">http://sellsgroup.com</a>, Upland, Indiana
-					<em>Front-End Web Developer <span>2013 &#x2013; present</span></em>
+					<a href="http://sellsgroup.com">http://sellsgroup.com</a>
+					<em>Web Developer <span>2013 &#x2013; Present</span></em>
 					<ul class="list">
 						<li>Responsible for front-end development on client marketing sites. Worked with team to execute project roadmaps.</li>
-						<li>Created a new build pipeline to streamline the development process. Set up automatic production deployments.</li>
-						<li>Built custom e-commerce platform on top of WordPress and Woocommerce. Developed transparent AJAX user cart functionality extending from custom API and Angular.js.</li>
+						<li>Built custom e-commerce platform on top of WordPress. Focused on application security from the front-end to the back-end</li>
+						<li>Configured development build pipeline on multiple platforms. Set up automatic production deployments. Configured AWS installations.</li>
 					</ul>
+				</li>
 				<li>
 					<h2>Floodlight Design</h2>
-					<a href="http://floodlight.design">http://floodlight.design</a>, Elgin, Illinois
+					<a href="http://floodlight.design">http://floodlight.design</a>
 					<em>Web Developer <span>2011 &#x2013; 2013</span></em>
 					<ul class="list">
 						<li>In charge of front-end development. Converted static Photoshop designs into flexible layouts</li>
-						<li>Performed cross browser testing and debugging</li>
 						<li>Integrated static templates with WordPress and Joomla templating systems</li>
 						<li>Developed JavaScript for site interactions and API integrations</li>
 					</ul>
 				</li>
 				<li>
 					<h2>Highgate Creative</h2>
-					<a href="http://highgate-creative.com">http://highgate-creative.com</a>, Wheaton, Illinois
+					<a href="http://highgate-creative.com">http://highgate-creative.com</a>
 					<em>Mobile Web Developer <span>2013 &#x2013; 2014</span></em>
 					<ul class="list">
-						<li>Advised on responsive design best practices. Developed and wrote documentation for an<br> internal responsive web design framework.</li> 
+						<li>Advised on responsive design best practices. Developed and wrote documentation for an internal responsive web design framework.</li>
 						<li>Developed several mobile themes for a custom content management system</li>
 						<li>Crafted a jQuery mobile theme for use on a client marketing website</li>
 					</ul>
@@ -106,7 +328,6 @@
 		</section>
 		<footer>
 			<em>References available upon request</em>
-			<p>Visit <a href="https://github.com/BoringCode">GitHub (https://github.com/BoringCode)</a> and my <a href="http://bradleyrosenfeld.com/portfolio/">portfolio (http://bradleyrosenfeld.com/portfolio/)</a></p>
-		</footer>
+		</footer>	
 	</body>
 </html>

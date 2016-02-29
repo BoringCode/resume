@@ -1,0 +1,119 @@
+{
+  "basics": {
+    "name": "Bradley Rosenfeld",
+    "label": "Web Security Analyst",
+    "picture": "",
+    "email": "thatguy@bradleyrosenfeld.com",
+    "phone": "(224) 650-7624",
+    "website": "http://bradleyrosenfeld.com",
+    "summary": "I am a developer who is passionate about information security.",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "BoringCode",
+        "url": "https://twitter.com/BoringCode"
+      },
+      {
+        "network": "GitHub",
+        "username": "BoringCode",
+        "url": "https://github.com/BoringCode"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "bradleyrosenfeld",
+        "url": "http://linkedin.com/in/bradleyrosenfeld"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Taylor University",
+      "url": "http://taylor.edu",
+      "area": "Computer Science - New Media / Systems",
+      "studyType": "B.S.",
+      "startDate": "August, 2012",
+      "endDate": "May 2016",
+      "gpa": "3.76/4.0"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding Peformance 2015 NSA CyberSpring Competition",
+      "date": "2015-11-01",
+      "awarder": "National Security Agency",
+      "summary": "Placed top 30 out of 160+ competitors in a live CTF competition."
+    },
+    {
+      "title": "1st Place BVU CTF 2015",
+      "date": "2015-04-01",
+      "awarder": "Buena Vista University",
+      "summary": "Worked with 3 other Taylor students in a live CTF competition involving attack/defense of 5 different services."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "C, C++",
+        "PHP, Python, Ruby",
+        "HTML, CSS, Sass, LESS, JavaScript"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git, Subversion",
+        "Grunt, NPM, Bower, Unix Tools",
+        "Angular.js, Node.js, jQuery"
+      ]
+    },
+    {
+      "name": "Techniques",
+      "keywords": [
+        "Penetration Testing, reverse engineering",
+        "Debugging, Q/A Testing",
+        "Agile, scrum"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Sells Group",
+      "position": "Web Developer",
+      "website": "http://sellsgroup.com",
+      "startDate": "2013",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Responsible for front-end development on client marketing sites. Worked with team to execute project roadmaps.",
+        "Built custom e-commerce platform on top of WordPress. Focused on application security from the front-end to the back-end",
+        "Configured development build pipeline on multiple platforms. Set up automatic production deployments. Configured AWS installations."
+      ]
+    },
+    {
+      "company": "Floodlight Design",
+      "position": "Web Developer",
+      "website": "http://floodlight.design",
+      "startDate": "2011",
+      "endDate": "2013",
+      "highlights": [        
+        "In charge of front-end development. Converted static Photoshop designs into flexible layouts",
+        "Integrated static templates with WordPress and Joomla templating systems",
+        "Developed JavaScript for site interactions and API integrations"
+      ]
+    },
+    {
+      "company": "Highgate Creative",
+      "position": "Mobile Web Developer",
+      "website": "http://highgate-creative.com",
+      "startDate": "2013",
+      "endDate": "2014",
+      "highlights": [    
+        "Advised on responsive design best practices. Developed and wrote documentation for an internal responsive web design framework.",
+        "Developed several mobile themes for a custom content management system",
+        "Crafted a jQuery mobile theme for use on a client marketing website"
+
+      ]
+    }
+  ]
+}

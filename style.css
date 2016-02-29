@@ -71,7 +71,7 @@ body {
 /*page header*/
 body > header {
 	width: 100%;
-	padding: 10px 5%;
+	padding: 10px 3%;
 	background-color: #EFEEEE;
 	font-family: 'Franchise', serif;
 	border-bottom: 3px solid #16577D;
@@ -81,12 +81,12 @@ body > header {
 	body > header h1 {
 		color: #16577D;
 		font-size: 49px;
-		line-height: 45px;
+		line-height: 40px;
 	}
 	body > header h2 {
 		font-size: 18px;
 		line-height: 18px;
-		letter-spacing: 1.6px;
+		letter-spacing: 1px;
 		word-spacing: 2px;
 		font-family: 'Bitter';
 		font-style: italic;
@@ -99,7 +99,7 @@ body > header {
 		font-size: 15px;
 		font-family: 'Source Sans Pro', sans-serif;
 		text-align: right;
-		padding: 15px 0;
+		padding: 12px 0;
 		line-height: 1.25em;
 	}
 		body > header .info a {
@@ -118,8 +118,9 @@ body > header {
 
 section, footer {
 	width: 100%;
-	padding: 0 5%;
-	font-size: 13px;
+	padding: 0 3%;
+	margin-top: 0.5em;
+	font-size: 0.8em;
 	line-height: 1.5em;
 }
 	section header {
@@ -129,21 +130,22 @@ section, footer {
 	}
 	   section header h2 {
 	   		color: #16577D;
-	       font-size: 20px;
-	       line-height: 1.2em;
-	       font-family: 'Bitter', serif;
+			font-size: 1.2em;
+			line-height: 1.2em;
+			font-family: 'Bitter', serif;
 	   }
 	section ul li {
 		list-style: none;
-		margin-top: 8px;
-		margin-left: 15px;
-		margin-right: 15px;
-		line-height: 18px;
+		margin: 0.6em 15px;
+		line-height: 1.3em;
 	}
 		section ul.list li {
 			list-style: disc;
-			margin-top: 0px;
+			margin: 0;
 			margin-left: 30px;
+		}
+		section ul.list {
+			margin-bottom: 0.6em;
 		}
 	section strong {
 		margin-left: 10px;
@@ -162,7 +164,7 @@ section, footer {
 	}
 	footer p {
 		text-align: center;
-		font-size: 12px;
+		font-size: 0.9em;
 		margin-top: 0px;
 	}
 	footer a {
