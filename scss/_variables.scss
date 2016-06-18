@@ -1,15 +1,20 @@
 $headline-font: 'Open Sans Condensed', sans-serif;
 $body-font: 'Gentium Book Basic', serif;
 
-$baseFontSize: 18; // in pixels. This would result in 22px on desktop
-$baseLineHeight: 1.7; // how large the line height is as a multiple of font size
-$leading: $baseLineHeight * 1rem;
+$baseFontSize: 15; // in pixels. This would result in 22px on desktop
+$baseLineHeight: 1.45; // how large the line height is as a multiple of font size
+$leading: $baseLineHeight * 0.8rem;
 // Rate of growth for headings
 // I actually like this to be slightly smaller then the leading. Makes for tight headings.
-$scale: 1.1;
+$scale: 1.2;
 
 // Colors
 $primary: #d9534f;
 $secondary: #5a5a5a;
 
 $default-transition-duration: 200ms;
+
+$container-width: 840px;
+
+// Grid
+$grid-gutter: 2rem;

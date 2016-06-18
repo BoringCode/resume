@@ -32,22 +32,22 @@
       "area": "Computer Science - New Media / Systems",
       "studyType": "B.S.",
       "startDate": "August, 2012",
-      "endDate": "May 2016",
-      "gpa": "3.76/4.0"
+      "endDate": "May, 2016",
+      "gpa": "3.77/4.0 GPA, Manga Cum Laude"
     }
   ],
   "awards": [
     {
-      "title": "Outstanding Peformance 2015 NSA CyberSpring Competition",
-      "date": "2015-11-01",
-      "awarder": "National Security Agency",
-      "summary": "Placed top 30 out of 160+ competitors in a live CTF competition."
+      "title": "Outstanding Systems Graduate",
+      "date": "2015",
+      "awarder": "Taylor University Computer Science & Engineering Department",
+      "summary": "This award is given to a student who best exemplifies what the Systems program is trying to teach through their outstanding class and project work."
     },
     {
-      "title": "1st Place BVU CTF 2015",
-      "date": "2015-04-01",
-      "awarder": "Buena Vista University",
-      "summary": "Worked with 3 other Taylor students in a live CTF competition involving attack/defense of 5 different services."
+      "title": "Outstanding Peformance NSA CyberSpring Competition",
+      "date": "2015",
+      "awarder": "National Security Agency",
+      "summary": "Placed top 30 out of 160+ competitors in a live CTF competition."
     }
   ],
   "skills": [

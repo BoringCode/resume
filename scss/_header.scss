@@ -1,0 +1,31 @@
+.resume-header {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.resume-title {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 1rem;
+
+	color: $primary;
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	font-weight: 700;
+	@include leading(2.2, true);
+}
+
+.contact-info {
+	width: 50%;
+	text-align: right;
+
+	font-size: 0.9rem;
+
+	a {
+		display: block;
+	}
+}

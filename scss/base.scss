@@ -3,6 +3,12 @@
 @import 'variables';
 @import 'mixins';
 @import 'typebase';
+@import 'grid';
 
 // Components
 @import 'default';
+@import 'header';
+
+@media print {
+	@import 'print';
+}

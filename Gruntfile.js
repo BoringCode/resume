@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 		resume: {
 			custom_options: {				
 				files: {
-					'index.html': ['resume.template', "styles/main.css", "resume.json"]
+					'index.html': ['resume.template', "css/main.css", "resume.json"]
 				}
 			}
 		},
@@ -49,6 +49,6 @@ module.exports = function(grunt) {
 	})
 
 	grunt.registerTask('default', ['dev', 'watch'])
-	grunt.registerTask('dev', ['sass', 'resume'])
-	grunt.registerTask('build', ['dev', 'postcss'])
+	grunt.registerTask('dev', ['sass', 'postcss', 'resume'])
+	grunt.registerTask('build', ['dev'])
 }

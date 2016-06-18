@@ -12,10 +12,9 @@
 			<a href="javascript:window.print();" class="print">Print</a>
 		</div>
 		{{#resume.basics}}
-		<header>
-			<h1>{{name}}</h1>
-			<h2>{{label}}</h2>
-			<div class="info">
+		<header class="resume-header">
+			<h1 class="resume-title">{{name}}</h1>
+			<div class="contact-info">
 				<a href="tel:{{phone}}">{{phone}}</a>
 				<a href="{{website}}">{{website}}</a>
 				<a href="mailto:{{email}}">{{email}}</a>
@@ -29,7 +28,7 @@
 		</section>
 		{{/resume.basics}}
 		<div class="row">
-			<section class="education col col-2-1">
+			<section class="education col col-2">
 				{{#if resume.education.length}}
 				<header>
 					<h2>Education</h2>
@@ -37,12 +36,12 @@
 				<ul>
 				{{#each resume.education}}
 					<li>
-						<h2>{{institution}}</h2>
+						<h3>{{institution}}</h3>
 						{{#if url}}
 							<a href="{{url}}">{{url}}</a>
 						{{/if}}
-						<em>{{startDate}} &#x2013; {{endDate}}</em>
-						<p>{{studyType}} {{area}}, {{gpa}} GPA</p>
+						<em>{{startDate}} &#x2013; {{endDate}}</em><br>
+						{{studyType}} {{area}},<br> {{gpa}}
 						{{#if courses.length}}
 						<p>
 							<strong>Courses</strong> 
@@ -60,9 +59,11 @@
 				<ul>
 				{{#each resume.awards}}
 					<li>
-						<h4>{{title}}</h4>
-						<em>{{awarder}}, {{date}}</em>
-						<p>{{summary}}</p>
+						<p>
+							<strong>{{title}}</strong>, {{date}}<br>
+							<em>{{awarder}}</em><br>
+							{{summary}}
+						</p>
 					</li>
 				{{/each}}
 				</ul>
@@ -70,15 +71,15 @@
 				<header>
 					<h2>Projects</h2>
 				</header>
-				<p>Visit my GitHub profile <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> for a list of my open source contributions and projects.</a></p>
+				<p class="indent">Visit my GitHub profile <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> for a list of my open source contributions and projects.</a></p>
 			</section>
 			{{#if resume.skills.length}}
-			<section class="skills col col-2-1">
+			<section class="skills col col-2">
 				<header>
 					<h2>Skills</h2>
 				</header>
 				{{#each resume.skills}}
-					<strong>{{name}}</strong>
+					<p><strong>{{name}}</strong></p>
 					{{#if keywords.length}}
 					<ul class="list">
 						{{#keywords}}
@@ -98,9 +99,9 @@
 			<ul>
 				{{#each resume.work}}
 				<li>
-					<h2>{{company}}</h2>
-					<a href="{{website}}">{{website}}</a>
-					<em>{{position}} <span>{{startDate}} &#x2013; {{endDate}}</span></em>
+					<h3>{{company}}</h3>
+					<a href="{{website}}">{{website}}</a>,
+					<em>{{position}} <span>{{startDate}} &#x2013; {{endDate}}</span></em><br>
 					{{#if highlights.length}}
 					<ul class="list">
 						{{#highlights}}

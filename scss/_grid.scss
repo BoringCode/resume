@@ -1,0 +1,19 @@
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 0rem (-$grid-gutter);
+}
+
+.col {
+	padding: 0px $grid-gutter;
+}
+
+@mixin column($width) {
+	.col-#{$width} {
+		width: (100% / $width);
+	}
+}
+
+@include column(2); 
