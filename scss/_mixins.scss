@@ -1,0 +1,39 @@
+@mixin screenreader-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+	outline: 0;
+}
+
+@mixin transition($properties, $duration: $default-transition-duration) {
+	transition-property: $properties;
+	transition-duration: $duration;
+	transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+}
+
+/* 
+ * Calculate leading based upon multiplier
+ */
+@mixin leading($multiplier: 1, $hug: false) {
+    line-height: $multiplier * $leading;
+    @if $hug == false { 
+        margin-top: $multiplier * $leading; 
+    } @else {
+        margin-top: 0;
+    }
+}
+
+@mixin link($link, $color) {
+	a[href*='#{$link}'] {
+		color: $color;
+
+		&:hover {
+			color: lighten($color, 20%);
+		}
+	}
+}

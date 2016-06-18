@@ -1,17 +1,23 @@
 {
   "name": "jsonresume-bradley-rosenfeld",
   "version": "0.0.1",
-  "description": "A theme for JSON Resume",
+  "description": "Generate a resume from a JSON file",
   "author": "Bradley Rosenfeld",
   "repository": {
     "type": "git",
     "url": "http://github.com/BoringCode/resume"
   },
-  "scripts": {
-    "start": "resume serve"
-  },
-  "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
-  },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "handlebars": "^2.0.0-alpha.4",
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.7.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.0",
+    "load-grunt-tasks": "^3.5.0",
+    "node-sass": "^3.8.0",
+    "pixrem": "^3.0.1"
+  }
 }

@@ -5,7 +5,7 @@
     "picture": "",
     "email": "thatguy@bradleyrosenfeld.com",
     "phone": "(224) 650-7624",
-    "website": "http://bradleyrosenfeld.com",
+    "website": "https://bradleyrosenfeld.com",
     "summary": "I am a developer who is passionate about information security. My objective is to work for an organization that wants to solve new security problems.",
     "profiles": [
       {
@@ -21,7 +21,7 @@
       {
         "network": "LinkedIn",
         "username": "bradleyrosenfeld",
-        "url": "http://linkedin.com/in/bradleyrosenfeld"
+        "url": "https://linkedin.com/in/bradleyrosenfeld"
       }
     ]
   },
@@ -88,7 +88,7 @@
     {
       "company": "Sells Group",
       "position": "Web Developer",
-      "website": "http://sellsgroup.com",
+      "website": "https://sellsgroup.com",
       "startDate": "2013",
       "endDate": "Present",
       "summary": "",
