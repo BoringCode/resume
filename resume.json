@@ -6,7 +6,7 @@
     "email": "thatguy@bradleyrosenfeld.com",
     "phone": "(224) 650-7624",
     "website": "http://bradleyrosenfeld.com",
-    "summary": "I am a developer who is passionate about information security.",
+    "summary": "I am a developer who is passionate about information security. My objective is to work for an organization that wants to solve new security problems.",
     "profiles": [
       {
         "network": "Twitter",
@@ -64,14 +64,22 @@
       "keywords": [
         "Git, Subversion",
         "Grunt, NPM, Bower, Unix Tools",
-        "Angular.js, Node.js, jQuery"
+        "Angular.js, Node.js, jQuery",
+        "Windows, Linux, Mac OS X"
+      ]
+    },
+    {
+      "name": "Networking",
+      "keywords": [
+        "TCP/IP, DNS, SSH, HTTP, TLS, socket programming",
+        "Apache, Nginx, MySQL"
       ]
     },
     {
       "name": "Techniques",
       "keywords": [
-        "Penetration Testing, reverse engineering",
-        "Debugging, Q/A Testing",
+        "Penetration testing, reverse engineering",
+        "Debugging, Q/A testing",
         "Agile, scrum"
       ]
     }

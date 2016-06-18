@@ -67,6 +67,10 @@
 				{{/each}}
 				</ul>
 				{{/if}}
+				<header>
+					<h2>Projects</h2>
+				</header>
+				<p>Visit my GitHub profile <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> for a list of my open source contributions and projects.</a></p>
 			</section>
 			{{#if resume.skills.length}}
 			<section class="skills col col-2-1">
@@ -83,10 +87,6 @@
 					</ul>
 					{{/if}}
 				{{/each}}
-				<header>
-					<h2>Projects</h2>
-				</header>
-				<p>Visit GitHub <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> and my portfolio <a href="http://bradleyrosenfeld.com/portfolio/">(http://bradleyrosenfeld.com/portfolio/)</a></p>
 			</section>
 			{{/if}}
 		</div>

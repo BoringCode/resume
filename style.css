@@ -8,11 +8,6 @@
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
-@media print {
-	html {
-		margin-top: -0.5em;
-	}
-}
 
 html {
 	width: 100%;
@@ -136,7 +131,8 @@ section, footer {
 	   }
 	section ul li {
 		list-style: none;
-		margin: 0.6em 15px;
+		margin: 0.6em 10px;
+		margin-right: 0;
 		line-height: 1.3em;
 	}
 		section ul.list li {
@@ -185,7 +181,7 @@ section, footer {
 	}
 	section > p {
 		margin: 4px 15px;
-		margin-bottom: 10px;
+		margin-bottom: 0.6em;
 	}
 footer {
 	margin-top: 10px;

@@ -14,11 +14,6 @@
 
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
-@media print {
-	html {
-		margin-top: -0.5em;
-	}
-}
 
 html {
 	width: 100%;
@@ -142,7 +137,8 @@ section, footer {
 	   }
 	section ul li {
 		list-style: none;
-		margin: 0.6em 15px;
+		margin: 0.6em 10px;
+		margin-right: 0;
 		line-height: 1.3em;
 	}
 		section ul.list li {
@@ -191,7 +187,7 @@ section, footer {
 	}
 	section > p {
 		margin: 4px 15px;
-		margin-bottom: 10px;
+		margin-bottom: 0.6em;
 	}
 footer {
 	margin-top: 10px;
@@ -201,6 +197,7 @@ footer {
 }</style>
 		<style media="print">html {
 	background: none;
+	margin-top: -0.5em;
 }
 body {
 	width: 100%;
@@ -230,7 +227,7 @@ body {
 			<header>
 				<h2>Overview</h2>
 			</header>
-			<p>I am a developer who is passionate about information security.</p>
+			<p>I am a developer who is passionate about information security. My objective is to work for an organization that wants to solve new security problems.</p>
 		</section>
 		<div class="row">
 			<section class="education col col-2-1">
@@ -260,6 +257,10 @@ body {
 						<p>Worked with 3 other Taylor students in a live CTF competition involving attack/defense of 5 different services.</p>
 					</li>
 				</ul>
+				<header>
+					<h2>Projects</h2>
+				</header>
+				<p>Visit my GitHub profile <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> for a list of my open source contributions and projects.</a></p>
 			</section>
 			<section class="skills col col-2-1">
 				<header>
@@ -276,17 +277,19 @@ body {
 						<li>Git, Subversion</li>
 						<li>Grunt, NPM, Bower, Unix Tools</li>
 						<li>Angular.js, Node.js, jQuery</li>
+						<li>Windows, Linux, Mac OS X</li>
+					</ul>
+					<strong>Networking</strong>
+					<ul class="list">
+						<li>TCP/IP, DNS, SSH, HTTP, TLS, socket programming</li>
+						<li>Apache, Nginx, MySQL</li>
 					</ul>
 					<strong>Techniques</strong>
 					<ul class="list">
-						<li>Penetration Testing, reverse engineering</li>
-						<li>Debugging, Q/A Testing</li>
+						<li>Penetration testing, reverse engineering</li>
+						<li>Debugging, Q/A testing</li>
 						<li>Agile, scrum</li>
 					</ul>
-				<header>
-					<h2>Projects</h2>
-				</header>
-				<p>Visit GitHub <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> and my portfolio <a href="http://bradleyrosenfeld.com/portfolio/">(http://bradleyrosenfeld.com/portfolio/)</a></p>
 			</section>
 		</div>
 		<section class="experience">
