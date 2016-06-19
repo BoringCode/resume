@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: #fcfcfc;
+	background: white;
 	max-width: $container-width;
 	min-height: 100%;
 	box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.4);
@@ -27,7 +27,7 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	padding: 1rem 2rem;
+	padding: 1rem 1.8rem;
 }
 
 .control-bar {
@@ -36,6 +36,11 @@ body {
 
 
 .indent {
+	margin-left: 1rem;
+	margin-bottom: 1.4rem;
+}
+
+.info p {
 	margin-left: 1rem;
 }
 
@@ -59,9 +64,13 @@ ul, ol {
 }
 
 section > header {
-	padding-bottom: 0.2rem;
-	border-bottom: 0.1rem lighten($secondary, 20%) solid;
+	margin-top: 1.4rem;
+	//padding-bottom: 0.2rem;
+	//border-bottom: 0.1rem lighten($secondary, 20%) solid;
 }
+	.portfolio > header {
+		margin-top: -0.8rem;
+	} 
 
 a {
 	color: inherit;
@@ -82,8 +91,7 @@ a {
 }
 
 footer {
-	padding-top: 0.4rem;
-	border-top: 0.1rem lighten($secondary, 20%) solid;
+	//border-top: 0.1rem lighten($secondary, 20%) solid;
 	text-align: center;
 }
 

@@ -3,7 +3,7 @@
 	<head>	
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-		<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+		<title>{{#resume.basics}}Resume &mdash; {{name}}{{/resume.basics}}</title>
 		<link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans+Condensed:300,700" rel="stylesheet">
 		<style type="text/css">{{{css}}}</style>
 	</head>
@@ -38,7 +38,7 @@
 					<li>
 						<h3>{{institution}}</h3>
 						{{#if url}}
-							<a href="{{url}}">{{url}}</a>
+							<a href="{{url}}">{{url}}</a>, 
 						{{/if}}
 						<em>{{startDate}} &#x2013; {{endDate}}</em><br>
 						{{studyType}} {{area}},<br> {{gpa}}
@@ -68,29 +68,33 @@
 				{{/each}}
 				</ul>
 				{{/if}}
-				<header>
-					<h2>Projects</h2>
-				</header>
-				<p class="indent">Visit my GitHub profile <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> for a list of my open source contributions and projects.</a></p>
 			</section>
 			{{#if resume.skills.length}}
 			<section class="skills col col-2">
 				<header>
 					<h2>Skills</h2>
 				</header>
-				{{#each resume.skills}}
-					<p><strong>{{name}}</strong></p>
-					{{#if keywords.length}}
-					<ul class="list">
-						{{#keywords}}
-						<li>{{.}}</li>
-						{{/keywords}}
-					</ul>
-					{{/if}}
-				{{/each}}
+				<div class="indent">
+					{{#each resume.skills}}
+						<p><strong>{{name}}</strong></p>
+						{{#if keywords.length}}
+						<ul class="list">
+							{{#keywords}}
+							<li>{{.}}</li>
+							{{/keywords}}
+						</ul>
+						{{/if}}
+					{{/each}}
+				</div>
 			</section>
 			{{/if}}
 		</div>
+		<section class="portfolio">
+			<header>
+				<h2>Projects</h2>
+			</header>
+			<p class="indent">Visit my GitHub profile <a href="https://github.com/BoringCode">(https://github.com/BoringCode)</a> for a list of my open source contributions and projects.</a></p>
+		</section>
 		{{#if resume.work.length}}
 		<section class="experience">
 			<header>
