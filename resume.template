@@ -55,14 +55,12 @@
 				<header>
 					<h2>Awards</h2>
 				</header>
-				<ul>
+				<ul class="awards">
 				{{#each resume.awards}}
 					<li>
-						<p>
-							<strong>{{title}}</strong>, {{date}}<br>
-							<em>{{awarder}}</em><br>
-							{{summary}}
-						</p>
+						<h3>{{title}}</h3>
+						<em>{{awarder}}</em>, {{date}}
+						<p>{{summary}}</p>
 					</li>
 				{{/each}}
 				</ul>
@@ -75,7 +73,7 @@
 				</header>
 				<div class="indent">
 					{{#each resume.skills}}
-						<p><strong>{{name}}</strong></p>
+						<h3>{{name}}</h3>
 						{{#if keywords.length}}
 						<ul class="list">
 							{{#keywords}}

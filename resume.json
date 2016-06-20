@@ -48,6 +48,12 @@
       "date": "2015",
       "awarder": "National Security Agency",
       "summary": "Placed top 30 out of 160+ competitors in a live CTF competition."
+    },
+    {
+      "title": "1st Place BVU CTF",
+      "date": "2015",
+      "awarder": "Buena Vista University",
+      "summary": "I competed with a team of students and took first place in an attack/defend CTF competition."
     }
   ],
   "skills": [
@@ -55,7 +61,7 @@
       "name": "Languages",
       "keywords": [
         "C, C++",
-        "PHP, Python, Ruby",
+        "PHP, Python, Ruby, SQL",
         "HTML, CSS, Sass, LESS, JavaScript"
       ]
     },
@@ -69,10 +75,17 @@
       ]
     },
     {
+      "name": "Libraries & Frameworks",
+      "keywords": [
+        "Ruby on Rails, Express, Flask, Django, WordPress",
+        "Angular.js, jQuery"
+      ]
+    },
+    {
       "name": "Networking",
       "keywords": [
         "TCP/IP, DNS, SSH, HTTP, TLS, socket programming",
-        "Apache, Nginx, MySQL"
+        "Apache, Nginx"
       ]
     },
     {

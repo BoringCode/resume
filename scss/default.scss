@@ -38,6 +38,10 @@ body {
 .indent {
 	margin-left: 1rem;
 	margin-bottom: 1.4rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .info p {
@@ -51,7 +55,11 @@ ul, ol {
 	margin-bottom: 0;
 
 	li {
-		margin-bottom: $leading;
+		margin-bottom: 0.6 * $leading;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }
 .list {
@@ -64,13 +72,12 @@ ul, ol {
 }
 
 section > header {
-	margin-top: 1.4rem;
-	//padding-bottom: 0.2rem;
-	//border-bottom: 0.1rem lighten($secondary, 20%) solid;
+	margin-top: 0.9rem;
+
+	h2 {
+		margin-top: 0;
+	}
 }
-	.portfolio > header {
-		margin-top: -0.8rem;
-	} 
 
 a {
 	color: inherit;
@@ -93,6 +100,7 @@ a {
 footer {
 	//border-top: 0.1rem lighten($secondary, 20%) solid;
 	text-align: center;
+	margin-top: 0.6rem;;
 }
 
 .experience {
@@ -100,6 +108,13 @@ footer {
 		float: right;
 	}
 	.list {
+		font-size: 0.85rem;
+		margin-top: 0.2rem;
+	}
+}
+
+.awards {
+	p {
 		font-size: 0.85rem;
 		margin-top: 0.2rem;
 	}
