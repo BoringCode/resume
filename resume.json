@@ -69,8 +69,8 @@
       "name": "Tools",
       "keywords": [
         "Git, Subversion",
-        "Grunt, NPM, Bower, Unix Tools",
-        "Angular.js, Node.js, jQuery",
+        "Grunt, Bower, Unix Tools",
+        "Node.js, NPM",
         "Windows, Linux, Mac OS X"
       ]
     },
